@@ -1,0 +1,8 @@
+resources:
+    - Test-deploy:
+        type: "AWS::Lambda::Function"
+        properties:
+          name: Test-code-deploy
+          alias: version1
+          currentversion: 1
+          targetversion: 2
